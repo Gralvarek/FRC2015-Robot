@@ -70,7 +70,10 @@
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Support Code/Elapsed Times.vi"/>
+			<Item Name="FED.vi" Type="VI" URL="../Support Code/FED.vi"/>
 			<Item Name="James.vi" Type="VI" URL="../Support Code/James/James.vi"/>
+			<Item Name="Latcher.vi" Type="VI" URL="../Support Code/Latcher.vi"/>
+			<Item Name="RED.vi" Type="VI" URL="../Support Code/RED.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Team Code/Autonomous Independent.vi"/>
