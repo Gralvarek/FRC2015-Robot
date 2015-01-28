@@ -86,7 +86,9 @@
 			<Item Name="Test.vi" Type="VI" URL="../Team Code/Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Team Code/Vision Processing.vi"/>
 		</Item>
+		<Item Name="DashboardToRobotCluster.ctl" Type="VI" URL="../Dashboard Project/DashboardToRobotCluster.ctl"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="RobotToDashboardCluster.ctl" Type="VI" URL="../Dashboard Project/RobotToDashboardCluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
