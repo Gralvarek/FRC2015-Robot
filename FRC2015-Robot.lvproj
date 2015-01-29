@@ -70,7 +70,10 @@
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Support Code/Elapsed Times.vi"/>
+			<Item Name="FED.vi" Type="VI" URL="../Support Code/FED.vi"/>
 			<Item Name="James.vi" Type="VI" URL="../Support Code/James/James.vi"/>
+			<Item Name="Latcher.vi" Type="VI" URL="../Support Code/Latcher.vi"/>
+			<Item Name="RED.vi" Type="VI" URL="../Support Code/RED.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Team Code/Autonomous Independent.vi"/>
@@ -83,7 +86,9 @@
 			<Item Name="Test.vi" Type="VI" URL="../Team Code/Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Team Code/Vision Processing.vi"/>
 		</Item>
+		<Item Name="DashboardToRobotCluster.ctl" Type="VI" URL="../Dashboard Project/DashboardToRobotCluster.ctl"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="RobotToDashboardCluster.ctl" Type="VI" URL="../Dashboard Project/RobotToDashboardCluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
