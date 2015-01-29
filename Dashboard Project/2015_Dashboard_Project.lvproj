@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="DashboardMain.vi" Type="VI" URL="../DashboardMain.vi"/>
 		<Item Name="DashboardToRobotCluster.ctl" Type="VI" URL="../DashboardToRobotCluster.ctl"/>
+		<Item Name="fillColor.vi" Type="VI" URL="../Testing Code/fillColor.vi"/>
 		<Item Name="RobotToDashboardCluster.ctl" Type="VI" URL="../RobotToDashboardCluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
