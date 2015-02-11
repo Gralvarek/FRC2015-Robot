@@ -98,7 +98,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
-			<Item Name="Drive Train.vi" Type="VI" URL="../Support Code/Drive Train.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Support Code/Elapsed Times.vi"/>
 			<Item Name="FED.vi" Type="VI" URL="../Support Code/FED.vi"/>
 			<Item Name="James.vi" Type="VI" URL="../Support Code/James/James.vi"/>
@@ -107,6 +106,8 @@ AddOutputFilter chunkFilter
 			<Item Name="RobotToDashboardCluster.ctl" Type="VI" URL="../Dashboard Project/RobotToDashboardCluster.ctl"/>
 			<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
 			<Item Name="DashboardToRobotCluster.ctl" Type="VI" URL="../Dashboard Project/DashboardToRobotCluster.ctl"/>
+			<Item Name="Culver Drive.vi" Type="VI" URL="../Team Code/Culver Drive.vi"/>
+			<Item Name="Drive Train.vi" Type="VI" URL="../Team Code/Drive Train.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Team Code/Autonomous Independent.vi"/>
@@ -563,7 +564,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Culver Drive.vi" Type="VI" URL="../../HRR Omni/Culver Drive.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
