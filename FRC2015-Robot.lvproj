@@ -109,6 +109,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Culver Drive.vi" Type="VI" URL="../Team Code/Culver Drive.vi"/>
 			<Item Name="Drive Train.vi" Type="VI" URL="../Team Code/Drive Train.vi"/>
 			<Item Name="2 Singles Make Double.vi" Type="VI" URL="../Support Code/2 Singles Make Double.vi"/>
+			<Item Name="Deadband.vi" Type="VI" URL="../Support Code/Deadband.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Team Code/Autonomous Independent.vi"/>
@@ -122,6 +123,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Team Code/Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="AverageOfArray.vi" Type="VI" URL="../Support Code/AverageOfArray.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
