@@ -13,7 +13,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="latchTest.vi" Type="VI" URL="../Testing/latchTest.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="Latcher.vi" Type="VI" URL="../Support Code/Latcher.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
